@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+    font-family: sans-serif;
+}
+
+.list1 {
+    list-style: disc;
+}
+.list1 li:nth-of-type(2n+1) {
+    background-color: #6e16ff;
+}
+
+.roman {
+    list-style: upper-roman;
+}
+.roman > li > ol {
+    list-style: lower-roman;
+}
+.roman li ol li ol {
+
+}
