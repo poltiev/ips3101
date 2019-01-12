@@ -1,0 +1,52 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #777;
+}
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.gray {
+    background-color: #333;
+}
+.one {
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+}
+a {
+    display: inline-block;
+}
+.border {
+    border: 1px solid red;
+    margin: 10px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+
+}
+.menu li {
+    display: inline-block;
+   /* *display: inline;
+    *zoom: 1;*/
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
