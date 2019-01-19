@@ -1,0 +1,50 @@
+@charset "utf-8";
+.red, .green, .yellow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.red {
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+.green {
+    background-color: green;
+    top: 10px;
+    left: 10px;
+    z-index: 20;
+}
+.vl {
+    background-color: #6e16ff;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.yellow {
+    background-color: yellow;
+    top: 40px;
+    left: 40px;
+    z-index: 10;
+}
+.no-scroll {
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    width: 150px;
+    background-color: #333333;
+
+}
+.pop-up {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333333;
+    opacity: 0;
+    /*background-color: rgba(150, 150, 150, .5);*/
+    z-index: -10;
+    text-align: center;
+}

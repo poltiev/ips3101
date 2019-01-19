@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+.container::after, .clear::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+.clear::before, .two::before {
+    content: ' ';
+    display: table;
+}
+
+.first {
+    border: 1px solid red;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+.two {
+    width: 1000px;
+    float: left;
+    padding-left: 20px;
+}
+.clear {
+    clear: both;
+}
+.two img {
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+
+.test::before {
+    content: 'Привет';
+    display: inline-block;
+}
