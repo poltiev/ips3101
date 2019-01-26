@@ -1,0 +1,19 @@
+@charset "utf-8";
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.light-gray {
+    background-color: #C4C4C4;
+}
+.dark-gray {
+    background-color: #474747;
+}
+.my-header {
+    height: 222px;
+    align-items: center;
+}
+.shop-img img {
+    width: 100%;
+}
