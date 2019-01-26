@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cols-1, .cols-2, .cols-3, .cols-4, .cols-5, .cols-6, .cols-7, .cols-8, .cols-9, .cols-10, .cols-11, .cols-12{
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cols-1 {
+    flex-basis: 8.33%;
+}
+.cols-2 {
+    flex-basis: 16.66%;
+}
+.cols-3 {
+    flex-basis: 25%;
+}
+.cols-4 {
+    flex-basis: 33.33%;
+}
+.cols-5 {
+    flex-basis: 41.66%;
+}
+.cols-6 {
+    flex-basis: 50%;
+}
+.cols-7 {
+    flex-basis: 58.33%;
+}
+.cols-8 {
+    flex-basis: 66.66%;
+}
+.cols-9 {
+    flex-basis: 75%;
+}
+.cols-10 {
+    flex-basis: 83.33%;
+}
+.cols-11 {
+    flex-basis: 91.67%;
+}
+.cols-12 {
+    flex-basis: 100%;
+}

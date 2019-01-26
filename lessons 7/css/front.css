@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700,900&subset=cyrillic');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.44em;
+}
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-header {
+    height: 222px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 25%;
+}
+.header-slogan {
+    width: 75%;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.light-gray {
+    background-color: #C4C4C4;
+}
+.dark-gray {
+    background-color: #474747;
+}
+.main-menu {
+    height: 43px;
+    display: flex;
+    align-items: center;
+}
+.main-menu a {
+    margin: 0 15px;
+    color: #FAFF00;
+    text-decoration: none;
+}
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+}
+aside {
+    width: 25%;
+}
+.main-content-general {
+    width: 58.33%;
+    background-color: #868686;
+}
+.right {
+    width: 16.67%;
+}
+.shop {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-cart {
+    width: 33.33%;
+    padding: 0 10px;
+}
+.shop-img {}
+.shop-img img {
+    width: 100%;
+}
