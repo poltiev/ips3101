@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document подключаем последним */
+
+
+/* Запись с  ... (min-width:1200px)... означает что данные значения будут применяться для размеров экрана больше указанных. То есть эти стили мы будем видить при ширине окна браузера более чем в 1200 пиксилей */
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+
+/* Запись с  ... and (max-width:1200px)... означает что данные значения будут применяться для размеров экрана  меньше чем 1200 пикселей соответсвенно - даже на самых маленьких... если ниже не перебить */
+
+@media only screen and (max-width:980px) {
+
+
+
+}
+
+
+
+@media only screen and (max-width:800px) {
+
+
+}
+
+@media only screen and (max-width:640px) {
+
+
+}
+
+@media only screen and (max-width:480px) {
+
+
+
+}
+
+
+/* Запись с  ... and (min-width: 980px) and (max-width:1200px)... означает что данные значения будут применяться для размеров экрана  в диапазоне от 980 до 1200 пикселей
+(Гланое не перепутать порядок сначала min потом max)
+очень удобно использовать когда необходимо написать стили так что бы они не наследовались другими разрешениями */
+
+@media only screen and (min-width: 980px) and (max-width:1200px) {
+
+
+}
+
+/*тут ниже примеры разрешений
+нужно будет повыбирать что будет нужно*/
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+
+
+}
+
+
+/*iPad (портретная и альбомная ориентация)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+}
+
+/*iPad (альбомная ориентация)*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/*iPad (портретная ориентация)*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+/*есть еще и для айфонов но я не писал, тут надо подумать
+http://stephen.io/mediaqueries/#iPhone
+*/
+
+/*Смартфон (портретная и альбомная ориентация) это если одинаковые значения будут для альбомной и портретной ориентации*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+}
+
+/*Смартфоны (альбомная ориентация)*/
+@media only screen and (min-width : 321px) {
+
+}
+
+/*Смартфоны (портретная ориентация) НО нужно учитывать что есть еще размер по моему 280пикс что бы и на нем нормально было ну или создавать еще один для самого маленького))) */
+@media only screen and (max-width : 320px) {
+
+}
+
