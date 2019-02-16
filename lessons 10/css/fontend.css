@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+:root {
+    --first-color: #9a0013;
+    --secon-color: #8292e4;
+    --round-small: 2px;
+    --round-big: 10px;
+}
+
+
+li {
+    border-radius: var(--round-small);
+}
+li a {
+    color: var(--first-color);
+}
+
+.my-color {
+    background-color: var(--secon-color);
+}
