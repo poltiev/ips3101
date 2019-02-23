@@ -1,0 +1,72 @@
+@charset "utf-8";
+.my-img {
+    border: 1px solid red;
+    width: 500px;
+    height:350px;
+}
+.my-img img {
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+
+
+/*
+input {
+    border: 1px solid #6e16ff;
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 250px;
+}
+input:focus {
+    outline: 0 none;
+    border: 1px solid red;
+}*/
+
+/*Кастомизация радио-чекбаттон*/
+.my-label {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #1b1e21;
+    line-height: 1.6em;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding-left: 40px;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    transition:  0.5s;
+}
+
+.hob {
+    display: none;
+}
+.hob:checked + .my-label {
+    background-position: 0 -30px;
+}
+
+/*Анимация*/
+.hov {
+    background-color: #0b2e13;
+    transition: 1s;
+}
+.hov:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+.trans {
+    border: 1px solid red;
+    height: 62px;
+    width: 70px;
+    text-align: center;
+    transition: 0.5s;
+    transform: rotate3d(0, 0, 0,0deg);
+}
+.trans:hover {
+    transform: rotate3d(0, -1, -1, 90deg);
+}
+p {
+    margin: 0;
+}
